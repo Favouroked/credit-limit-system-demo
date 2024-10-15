@@ -4,65 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="311be645-feee-41eb-ac3b-dcc1073b6702" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ecs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/kafka_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/credit_limit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/emotion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/thought.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/transaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/credit_limit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/emotion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/sql_migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/thought.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/transaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/migrations/000-init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/ops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deps_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/credit_limit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/emotion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/thought.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/populate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/credit_limit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/emotion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/thought.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/transaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/circuit_breaker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/services/test_credit_limit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/test_circuit_breaker.py" afterDir="false" />
-    </list>
+    <list default="true" id="311be645-feee-41eb-ac3b-dcc1073b6702" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +110,7 @@
       <updated>1728731736494</updated>
       <workItem from="1728731738394" duration="1966000" />
       <workItem from="1728763728564" duration="11787000" />
-      <workItem from="1728849736874" duration="65298000" />
+      <workItem from="1728849736874" duration="65620000" />
     </task>
     <servers />
   </component>

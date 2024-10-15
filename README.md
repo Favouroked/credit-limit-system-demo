@@ -18,8 +18,8 @@ Prerequisites
 
 ##### Step 1: Clone the Repository and Create a virtualenv
 ```shell
-git clone https://github.com/your-repo/credit-limit-system.git
-cd credit-limit-system
+git clone git@github.com:Favouroked/credit-limit-system-demo.git
+cd credit-limit-system-demo
 python3 -m venv venv
 source venv/bin/activate
 ```

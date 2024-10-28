@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="311be645-feee-41eb-ac3b-dcc1073b6702" name="Changes" comment="" />
+    <list default="true" id="311be645-feee-41eb-ac3b-dcc1073b6702" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/emotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/emotion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/thought.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/thought.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/populate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/populate.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_credit_limit.TestCreditLimitService.test_should_deploy_credit_limit.executor": "Run",
-    "Python tests.Python tests for test_credit_limit.TestCreditLimitService.test_should_return_most_frequent_sentiment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_credit_limit.TestCreditLimitService.test_should_deploy_credit_limit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_credit_limit.TestCreditLimitService.test_should_return_most_frequent_sentiment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -110,7 +116,13 @@
       <updated>1728731736494</updated>
       <workItem from="1728731738394" duration="1966000" />
       <workItem from="1728763728564" duration="11787000" />
-      <workItem from="1728849736874" duration="65620000" />
+      <workItem from="1728849736874" duration="70846000" />
+      <workItem from="1729072191345" duration="135000" />
+      <workItem from="1729239099800" duration="1259000" />
+      <workItem from="1729282409674" duration="550000" />
+      <workItem from="1729769599251" duration="6365000" />
+      <workItem from="1730136606153" duration="1295000" />
+      <workItem from="1730138015544" duration="632000" />
     </task>
     <servers />
   </component>

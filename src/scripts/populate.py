@@ -89,8 +89,8 @@ def main():
     logger.info(f"User: {user.model_dump(mode='json')}")
     # logger.info("Creating Transactions")
     # create_transactions(user)
-    # logger.info("Pushing Emotions")
-    # push_emotions(user)
+    logger.info("Pushing Emotions")
+    push_emotions(user)
     logger.info("Pushing Thoughts")
     push_thoughts(user)
 

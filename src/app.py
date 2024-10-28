@@ -4,7 +4,7 @@ import traceback
 from multiprocessing import Process
 import json
 from flask import Flask, Response, request
-from werkzeug.exceptions import Unauthorized
+from flask_cors import CORS
 
 from src.config import get_logger
 from src.config.errors import AuthError, ECSError
@@ -17,6 +17,8 @@ from src.deps_init import (
     thought_svc,
 )
 from src.models.credit_limit import CreditLimitParams, DeployCreditLimitPayload
+from src.models.emotion import KafkaEmotionPayload
+from src.models.thought import KafkaThoughtPayload
 
 logger = get_logger(__name__)
 
@@ -55,10 +57,13 @@ def create_app():
 
 
 app = create_app()
+CORS(app)
 
 
 @app.before_request
 def check_auth():
+    if request.method == "OPTIONS":
+        return
     if authorization := request.authorization:
         username, password = authorization.username, authorization.password
         if username != env.auth_username or password != env.auth_password:
@@ -98,3 +103,17 @@ def deploy_credit_limit():
     payload = DeployCreditLimitPayload.model_validate(request.get_json())
     user = credit_limit_svc.deploy_credit_limit(payload)
     return user.model_dump(mode="json")
+
+def _push_data_to_kafka(payload, data_type):
+    kafka_client.publish(env.brain_interface_kafka_topic, payload, key=data_type)
+
+
+@app.route("/api/brain-data/<data_type>", methods=["POST"])
+def insert_brain_data(data_type):
+    payload = {**request.get_json(), 'user_id': 'c8a71a0c-812c-4efb-a394-f5f258b4e378'}
+    if data_type == "emotion":
+        data = KafkaEmotionPayload.model_validate(payload)
+    else:
+        data = KafkaThoughtPayload.model_validate(payload)
+    _push_data_to_kafka(data.model_dump(mode="json"), data_type)
+    return 'OK'

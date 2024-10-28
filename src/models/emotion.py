@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Any
-
+from uuid import uuid4
 from pydantic import BaseModel, model_validator
 
 from src.constants.emotion import EmotionType
@@ -16,6 +16,10 @@ class KafkaEmotionPayload(BaseModel):
     @model_validator(mode="before")
     @classmethod
     def populate_default_fields(cls, data: Any) -> Any:
+        if "id" not in data:
+            data["id"] = str(uuid4())
+        if "created_at" not in data:
+            data["created_at"] = datetime.utcnow()
         if type(data["created_at"]) in {float, int}:
             created_at = data["created_at"]
             timestamp = (
